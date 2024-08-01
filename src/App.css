@@ -1,0 +1,173 @@
+/* SalahTracker.css */
+
+.salah-tracker {
+  background: #f4f4f9; /* Light background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Max width of the component */
+  margin: auto; /* Center the component */
+  text-align: center;
+}
+
+.city-input,
+.country-input {
+  width: calc(50% - 12px); /* Adjust width for better alignment */
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.enter-button {
+  background-color: #28a745; /* Green color for the button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.salah-times {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.salah-times h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.salah-times ul {
+  list-style: none;
+  padding: 0;
+}
+
+.salah-times li {
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+/* PrayerStatus.css */
+
+.prayer-status {
+  background: #ffffff; /* White background for the component */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Max width of the component */
+  margin: auto; /* Center the component */
+  text-align: center;
+}
+
+.prayer-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.react-calender {
+  margin-bottom: 20px;
+}
+
+.prayer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.prayer-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.prayer-list input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.tile-content {
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.light-gray {
+  background-color: #d3d3d3; /* Light gray */
+}
+
+.light-orange {
+  background-color: #ffa07a; /* Light orange */
+}
+
+.medium-orange {
+  background-color: #ff8c00; /* Medium orange */
+}
+
+.dark-orange {
+  background-color: #ff4500; /* Dark orange */
+}
+
+/*homepage.css*/
+.homepage {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Colorful background gradient */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  background: white; /* White background for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 40px;
+  text-align: center;
+  max-width: 600px; /* Max width of the container */
+  width: 100%;
+}
+
+.heading {
+  font-size: 2.5rem; /* Large heading font size */
+  color: #333; /* Dark text color */
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 1.5rem; 
+  color: #555; 
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.home-button {
+  background-color: #ff6f61; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #ff3f2f;
+}
