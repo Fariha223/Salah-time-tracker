@@ -1,18 +1,18 @@
 /* SalahTracker.css */
 
 .salah-tracker {
-  background: #f4f4f9; /* Light background color */
+  background: #f4f4f9;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px; /* Max width of the component */
-  margin: auto; /* Center the component */
+  max-width: 600px; 
+  margin: auto; 
   text-align: center;
 }
 
 .city-input,
 .country-input {
-  width: calc(50% - 12px); /* Adjust width for better alignment */
+  width: calc(50% - 12px); 
   padding: 10px;
   margin: 10px;
   border: 1px solid #ddd;
@@ -21,7 +21,7 @@
 }
 
 .enter-button {
-  background-color: #28a745; /* Green color for the button */
+  background-color: #28a745; 
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -32,7 +32,7 @@
 }
 
 .enter-button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838; 
 }
 
 .salah-times {
@@ -58,7 +58,7 @@
 /* PrayerStatus.css */
 
 .prayer-status {
-  background: #ffffff; /* White background for the component */
+  background: #ffffff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -103,25 +103,25 @@
 }
 
 .light-gray {
-  background-color: #d3d3d3; /* Light gray */
+  background-color: #d3d3d3; 
 }
 
 .light-orange {
-  background-color: #ffa07a; /* Light orange */
+  background-color: #ffa07a; 
 }
 
 .medium-orange {
-  background-color: #ff8c00; /* Medium orange */
+  background-color: #ff8c00; 
 }
 
 .dark-orange {
-  background-color: #ff4500; /* Dark orange */
+  background-color: #ff4500;
 }
 
-/*homepage.css*/
+/* homepage.css */
 .homepage {
-  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Colorful background gradient */
-  min-height: 100vh; /* Full viewport height */
+  background: linear-gradient(to right, #ff7e5f, #feb47b); 
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,18 +130,18 @@
 }
 
 .container {
-  background: white; /* White background for the container */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 40px;
   text-align: center;
-  max-width: 600px; /* Max width of the container */
+  max-width: 600px; 
   width: 100%;
 }
 
 .heading {
-  font-size: 2.5rem; /* Large heading font size */
-  color: #333; /* Dark text color */
+  font-size: 2.5rem; 
+  color: #333; 
   margin-bottom: 20px;
 }
 
