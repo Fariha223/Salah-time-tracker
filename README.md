@@ -1,7 +1,5 @@
 # Salah-time-tracker
 
-# Salah Time Tracker
-
 Welcome to the Salah Time Tracker application! This app helps you track Salah times and manage your prayer schedule. 
 
 ## Features
